@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": 9000,
+    "secret": "secret"
+  },
+  "api": {
+    "host": "https://api.demdex.com",
+    "basePath": "/",
+    "authorizationPath": "/oauth/authorize",
+    "tokenPath": "/oauth/token",
+    "clientId": "aam-demo-app",
+    "clientSecret": "secret",
+    "callbackUrl": "http://localhost:9000/login/callback"
+  }
+}

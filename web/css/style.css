@@ -1,0 +1,16 @@
+
+body {
+    padding: 0.5rem;
+    background: #fff;
+}
+
+div.section {
+    padding: 0.5rem;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.section div {
+    padding: 0.2rem;
+}

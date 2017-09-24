@@ -1,0 +1,25 @@
+<html ng-app="app">
+<head>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body ng-controller="AppController">
+<h1>Welcome!</h1>
+
+<div class="section">
+    <div>{{ user.firstName }} {{ user.lastName }} ({{ user.email }})</div>
+    <div>{{ user.companyName }}</div>
+    <div><a href="/logout">Sign Out</a></div>
+</div>
+<br>
+<h4>Data Sources</h4>
+<div class="section">
+    <div ng-repeat="datasource in datasources">
+        <div>{{ datasource.name }} ({{ datasource.dataSourceId }})</div>
+    </div>
+</div>
+
+</body>
+</html>
